@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  background-color: #ffd900;
+  padding: 2%;
+}
+
+/* Section */
+
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+#light {
+  background-color: #514988;
+  text-align: center;
+  width: 802px;
+  height: 694px;
+}
+
+#light h1 {
+  color: #f3c61f;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 37px;
+  padding: 50px;
+  text-transform: uppercase;
+}
+
+#light h2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+#light p {
+  color: #ffffff;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 70px;
+}
+
+.counter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: 100px;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+.counter h1 {
+  color: #514988;
+  font-size: 70px;
+}
+
+.counter h2 {
+  color: #e33881;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 3%;
+}
+
+/*SESSÃO DE VIDEO */
+
+#video {
+    padding: 4% 0 0 2%;
+}
+
+/* SESSÃO DE INGRESSOS */
+
+#ingressos {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+#ingressos h3 {
+  color: #f3c61f;
+  font-size: 27px;
+  padding: 3% 8%;
+}
+
+#ingressos img {
+  padding-left: 1%;
+}
+
+button {
+  background-color: #514988;
+  color: #ffffff;
+  border: 1px solid #514988;
+  border-radius: 15px;
+  width: 500px;
+  height: 130px;
+  font-size: 42px;
+  font-weight: 700;
+  margin-top: 19%;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #f3c61f;
+  transition: 0.6s;
+  box-shadow: 0px 12px 12px #f3c61f;
+  transform: translateY(-3px);
+}
