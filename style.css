@@ -116,3 +116,23 @@ button:hover {
 .card-selected {
   border: 5px solid green;
 }
+/* FORMULARIO */
+form{
+  background-color: #f3c61f;
+  margin-top: 150px;
+}
+
+input{
+  background: #514988;
+  border-radius: 15px;
+  color:#ffffff;
+  border: 0;
+  margin: 30px;
+  width: 400px;
+  height: 70px;
+  font-size: 30px;
+}
+
+#button{
+  cursor: pointer;
+}
