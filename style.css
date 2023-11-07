@@ -69,7 +69,7 @@ section {
 /*SESSÃO DE VIDEO */
 
 #video {
-    padding: 4% 0 0 2%;
+    padding: 4% 0 0 4%;
 }
 
 /* SESSÃO DE INGRESSOS */
@@ -109,3 +109,10 @@ button:hover {
   transform: translateY(-3px);
 }
 
+.card-highlight {
+  box-shadow: 10px 10px 10px 10px grey;
+}
+
+.card-selected {
+  border: 5px solid green;
+}

@@ -17,6 +17,7 @@
             <h2>De 01 a 04 de dezembro</h2>
             <p>Você consegue sentir? É aquela sensação de <br> finalmente poder falar em voz alta: "estamos <br> em casa". Sim, em dezembro de 2022,<br>teremos a volta da CCXP física. Mas não será <br> qualquer CCXP, vai ser a maior de todos os <br> tempos. Prepare-se para visitar seus <br> universos favoritos, explorar o Artists' Valley, <br> se emocionar nos auditórios e encontrar <br> aventuras épicas a cada passo pelos nossos <br> corredores.</p>
         </div>
+
             <div class="counter">
                 <div>
                     <h1 id="day">00</h1> 
@@ -28,25 +29,24 @@
                     <h1 id="minute">00</h1>
                 </div>
                 <div>
-                    <h1 id="seconds">00</h1>
+                    <h1 id="second">00</h1>
                 </div>
                 <h2>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h2>
                 <div id="video">
-                    <video controls loop width="99%" height="95%" ><source src="img/Arlequina.mp4" type="video/mp4"></video>
+                    <video controls loop width="800px"><source src="IMG/Arlequina.mp4" type="video/mp4"></video>
                 </div>
             </div>
     </section>
 
-
     <section id="ingressos">
         <div>
             <h3>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h3>
-            <img class="cards-ingressos" src="IMG/qui.svg" onmouseover="Selector(`#quinta`)" onmouseout="Selector(`#quinta`)" id="quinta">
-            <img class="cards-ingressos" src="IMG/sex.svg" onmouseover="Selector(`#sexta`)" onmouseout="Selector(`#sexta`)" id="sexta">
-            <img class="cards-ingressos" src="IMG/sab.svg" onmouseover="Selector(`#sabado`)" onmouseout="Selector(`#sabado`)" id="sabado">
-            <img class="cards-ingressos" src="IMG/dom.svg" onmouseover="Selector(`#domingo`)" onmouseout="Selector(`#domingo`)" id="domingo">
+            <img class="cards-ingressos" onclick="selectCard('#quinta') "src="img/qui.svg" onmouseover="Selector('#quinta')" onmouseout="Selector('#quinta')" id="quinta">
+            <img class="cards-ingressos" onclick="selectCard('#sexta') "src="img/sex.svg" onmouseover="Selector('#sexta')" onmouseout="Selector('#sexta')" id="sexta">
+            <img class="cards-ingressos" onclick="selectCard('#sabado') "src="img/sab.svg" onmouseover="Selector('#sabado')" onmouseout="Selector('#sabado')" id="sabado">
+            <img class="cards-ingressos" onclick="selectCard('#domingo') "src="img/dom.svg" onmouseover="Selector('#domingo')" onmouseout="Selector('#domingo')" id="domingo">
         </div>
-        <button>GARANTA O SEU!</button>
+        <button onclick="showSelectedCards()">GARANTA O SEU!</button>
     </section>
     <script src="js/script.js"></script>
 </body>
